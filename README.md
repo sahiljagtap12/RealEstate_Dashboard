@@ -1,7 +1,10 @@
 ### Real Estate Dashbaord
 
-![Dashboard](https://i.imgur.com/MqWDJXl.png)
+The app is live here and feel free to check it out -
+[Evoia](https://frolicking-donut-a5269c.netlify.app)
 
+![Dashboard]
+<img src="afterlogin.png" alt="the screenshot of the app large screen"/>
 MERN DASHBOARD PROJECT
 Cloudinary is for serving images
 dotenv is for safely storing environment variables
@@ -17,5 +20,3 @@ how the new user route works:
 1. We have a user route to create a "user" which is a post route (in user.routes.js) on '/' (app.use('/api/v1/users', userRouter in index.js)
 2. That function is called createUser in user.controller.js
 3. should return status of 200
-
-deployed on : https://frolicking-donut-a5269c.netlify.app

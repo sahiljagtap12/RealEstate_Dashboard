@@ -67,7 +67,7 @@ function App() {
       // the first param (http://localhost:8080/api/v1/users) is the endpoint we created in the backend and triggers our api. 
       // the second parameter is an object with options. In the options object, we specify the method as POST. We also need to provide headers and a body.
       if (profileObj) {
-        const response = await fetch('https://realestatedashboard.onrender.com/api/v1/users', {
+        const response = await fetch('http://localhost:8081/api/v1/users', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -143,7 +143,7 @@ function App() {
       <RefineSnackbarProvider>
         <Refine
           //dataProvider is the API endpoint we created in the backend
-          dataProvider={dataProvider("https://realestatedashboard.onrender.com/api/v1")}
+          dataProvider={dataProvider("https://localhost:8081/api/v1")}
           notificationProvider={notificationProvider}
           ReadyPage={ReadyPage}
           catchAll={<ErrorComponent />}
