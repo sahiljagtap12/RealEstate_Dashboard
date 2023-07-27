@@ -1,7 +1,7 @@
 ### Real Estate Dashbaord
 
 The app is live here and feel free to check it out -
-[Evoia](https://frolicking-donut-a5269c.netlify.app)
+(https://frolicking-donut-a5269c.netlify.app)
 
 ![Dashboard]
 <img src="afterlogin.png" alt="the screenshot of the app large screen"/>
